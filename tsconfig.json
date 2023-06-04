@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./out",
+        "sourceMap": true,
+        "rootDir": "./src",
+        "typeRoots": [
+        "node_modules/@types"
+        ],
+    },
+    "exclude": [
+        "node_modules",
+        "out",
+        ".vscode"
+    ],
+  }

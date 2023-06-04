@@ -1,0 +1,11 @@
+node_modules/*
+.vscode/*
+.idea/*
+
+# Ignore the build directory
+out/*
+
+
+*/**/config.json
+*/**/config.json.*
+*/**/config.json.*/
